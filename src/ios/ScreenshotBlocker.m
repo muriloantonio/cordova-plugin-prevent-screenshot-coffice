@@ -107,7 +107,7 @@ UIImageView* cover;
     [ScreenRecordingDetector stopDetectorTimer];
     if(cover == nil) {
         cover = [[UIImageView alloc] initWithFrame:[self.webView frame]];
-        cover.backgroundColor = [UIColor blackColor];
+        cover.backgroundColor = [UIColor whiteColor];
         [self.webView addSubview:cover];
     }
 }
